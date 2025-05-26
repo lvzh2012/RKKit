@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "37F7F1422DE0833C001BC466"
-               BuildableName = "RKKit.framework"
-               BlueprintName = "RKKit"
+               BuildableName = "RKKit_iOS.framework"
+               BlueprintName = "RKKit iOS"
                ReferencedContainer = "container:RKKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "37F7F1422DE0833C001BC466"
-            BuildableName = "RKKit.framework"
-            BlueprintName = "RKKit"
+            BuildableName = "RKKit_iOS.framework"
+            BlueprintName = "RKKit iOS"
             ReferencedContainer = "container:RKKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

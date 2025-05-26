@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		37F7F12D2DE082C1001BC466 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		37F7F12E2DE082D2001BC466 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
-		37F7F1432DE0833C001BC466 /* RKKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F7F1432DE0833C001BC466 /* RKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		37F7F1352DE08306001BC466 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37F7F1432DE0833C001BC466 /* RKKit_iOS.framework */,
+				37F7F1432DE0833C001BC466 /* RKKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37F7F1422DE0833C001BC466 /* RKKit iOS */ = {
+		37F7F1422DE0833C001BC466 /* RKKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37F7F1472DE0833C001BC466 /* Build configuration list for PBXNativeTarget "RKKit iOS" */;
+			buildConfigurationList = 37F7F1472DE0833C001BC466 /* Build configuration list for PBXNativeTarget "RKKit" */;
 			buildPhases = (
 				37F7F13E2DE0833C001BC466 /* Headers */,
 				37F7F13F2DE0833C001BC466 /* Sources */,
@@ -79,11 +79,11 @@
 			);
 			dependencies = (
 			);
-			name = "RKKit iOS";
+			name = RKKit;
 			packageProductDependencies = (
 			);
 			productName = RKKit;
-			productReference = 37F7F1432DE0833C001BC466 /* RKKit_iOS.framework */;
+			productReference = 37F7F1432DE0833C001BC466 /* RKKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37F7F1422DE0833C001BC466 /* RKKit iOS */,
+				37F7F1422DE0833C001BC466 /* RKKit */,
 			);
 		};
 /* End PBXProject section */
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37F7F1472DE0833C001BC466 /* Build configuration list for PBXNativeTarget "RKKit iOS" */ = {
+		37F7F1472DE0833C001BC466 /* Build configuration list for PBXNativeTarget "RKKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37F7F1482DE0833C001BC466 /* Debug */,
